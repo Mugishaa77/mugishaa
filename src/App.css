@@ -1,0 +1,97 @@
+:root {
+    --tangerine: 'Tangerine', cursive;
+    --quarrel: 'Lovers Quarrel',
+        cursive;
+        --playfair: 'Playfair Display',
+            serif;
+        --pink: #FBDDFB;
+        --purple: #6E0061;
+        --blue: #192A52;
+}
+.home {
+    background-image: url('./backgrounds/sal.png');
+        background-color: #ffffff;
+        /* Add a background color */
+}
+
+.home .content {
+    background-image: url('./backgrounds/two.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        /* Center horizontally and align to the top vertically */
+        /* Adjusts the background image size to cover the entire element */
+        width: 100%;
+    padding-top: 20rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+.content h1 {
+    font-family: var(--tangerine);
+    color: var(--purple);
+    font-size: 40px;
+
+}
+
+.content ul li {
+    font-family: var(--tangerine);
+}
+
+/* CSS */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #000;
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid #000;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* CSS */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-right-color: transparent;
+    }
+
+    50% {
+        border-right-color: black;
+        /* Color of the cursor */
+    }
+}
+
+.cursor {
+    display: inline-block;
+    border-right: 2px solid black;
+    /* Width and color of the cursor */
+    margin-right: 2px;
+    /* Adjust as needed to control cursor spacing */
+    height: 1em;
+    /* Adjust as needed to control cursor height */
+    animation: blink-caret 1s step-end infinite;
+    /* Blink animation */
+}
