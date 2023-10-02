@@ -4,38 +4,50 @@
         cursive;
         --playfair: 'Playfair Display',
             serif;
+            --quicksand: 'Quicksand',
+                sans-serif;
+                --abril: 'Abril Fatface',
+                    cursive;
         --pink: #FBDDFB;
         --purple: #6E0061;
         --blue: #192A52;
 }
-.home {
-    background-image: url('./backgrounds/sal.png');
-        background-color: #ffffff;
-        /* Add a background color */
-}
 
 .home .content {
-    background-image: url('./backgrounds/two.png');
-        background-repeat: no-repeat;
-        background-position: center top;
-        /* Center horizontally and align to the top vertically */
-        /* Adjusts the background image size to cover the entire element */
-        width: 100%;
-    padding-top: 20rem;
+    padding: 2rem;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-top: 1rem;
 }
 
 .content h1 {
-    font-family: var(--tangerine);
-    color: var(--purple);
+    
     font-size: 40px;
+    font-family:  var(--abril);
 
 }
 
+.content h2 {
+    color:var(--blue);
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.content ul {
+    padding: 1rem;
+    margin: 1rem;
+}
+
 .content ul li {
-    font-family: var(--tangerine);
+    list-style: none;
+    padding: 1rem;
+    padding: 1rem;
+    font-size: 30px;
+
+}
+
+.content ul li a {
+    text-decoration: none;
+        
 }
 
 /* CSS */
@@ -63,7 +75,6 @@
 
 .typewriter {
     overflow: hidden;
-    border-right: 0.15em solid #000;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15em;
@@ -79,14 +90,14 @@
     }
 
     50% {
-        border-right-color: black;
+        border-right-color: var(--blue);
         /* Color of the cursor */
     }
 }
 
 .cursor {
     display: inline-block;
-    border-right: 2px solid black;
+    border-right: 4px solid var(--blue);
     /* Width and color of the cursor */
     margin-right: 2px;
     /* Adjust as needed to control cursor spacing */
@@ -95,3 +106,4 @@
     animation: blink-caret 1s step-end infinite;
     /* Blink animation */
 }
+

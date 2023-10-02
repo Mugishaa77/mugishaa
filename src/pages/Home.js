@@ -32,20 +32,23 @@ export default function Home () {
     return (
         <div className="home">
             <div className="content">
-<h1><em>Sally Mugisha Wanga</em></h1>
+<h1>Sally Mugisha Wanga</h1>
             <h2 className="typewriter">
                   <span>{text}</span>
                   <span className="cursor"></span></h2>
             <ul>
 
                 <li>
-                   <Link to="/">About Me</Link> 
+                   <Link to="/">
+                    About Me</Link> 
                 </li>
                 <li>
-                    <Link to="/">Projects</Link>
+                    <Link to="/">
+                        Projects</Link>
                     </li>
                     <li>
-                        <Link to="/">Contact Me</Link>
+                        <Link to="/">
+                            Contact Me</Link>
                     </li>
             </ul>
             </div>
