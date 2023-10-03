@@ -2,7 +2,7 @@
     --tangerine: 'Tangerine', cursive;
     --quarrel: 'Lovers Quarrel',
         cursive;
-        --playfair: 'Playfair Display',
+        --paragraph: 'Lusitana',
             serif;
             --quicksand: 'Quicksand',
                 sans-serif;
@@ -13,41 +13,93 @@
         --blue: #192A52;
 }
 
+.home {
+    background-image: url('./backgrounds/purple.png');
+        background-position: center;
+    height: 750px;
+   
+}
+
+.home .top {
+    height: 60px;
+}
+ 
+
 .home .content {
-    padding: 2rem;
+    background-color: rgba(145, 110, 150, 0.7);
+        /* Adjust the alpha value (0.7 in this example) for the desired opacity */
+    background-position: center;
+        /* Adjust the alpha value (0.7 in this example) for the desired opacity */
+        /* Center the background image horizontally and vertically */
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #C26CB5;
+    box-shadow: 0 4px 8px rgba(26, 26, 29, 0.2);
+    margin:60px;
+    margin-top: 0;
+    height: 600px;
+    margin-bottom: 0;
 }
 
 .content h1 {
-    
-    font-size: 40px;
-    font-family:  var(--abril);
+    padding-top: 1rem;
+    padding-bottom: 1px;
+    font-family: var(--paragraph);
+    color: #482C58;
+    font-size: 60px;
+    background-color: #AB8BAE;
+    border: 1px solid #C26CB5;
 
 }
 
 .content h2 {
-    color:var(--blue);
+    color:var(--pink);
     text-decoration: underline;
     padding: 1rem;
+    font-size: 40px;
 }
 
 .content ul {
-    padding: 1rem;
-    margin: 1rem;
+    list-style: none;
+    padding: 0;
 }
 
 .content ul li {
-    list-style: none;
-    padding: 1rem;
-    padding: 1rem;
+    padding: 1px;
     font-size: 30px;
+    font-family: var(--tangerine);
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white background */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* Semi-transparent black border */
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Box shadow */
+    transition: background-color 0.3s, transform 0.3s;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    /* Smooth transition */
+}
 
+.content ul li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly more opaque white background */
+        transform: translateY(-2px);
+        /* Slight lift on hover */
+        color: var(--pink);
 }
 
 .content ul li a {
     text-decoration: none;
-        
+    font-size: 60px;
+    color: var(--purple);        
+}
+
+.content ul li a:hover {
+    
+        transform: translateY(-2px);
+        /* Slight lift on hover */
 }
 
 /* CSS */
@@ -69,7 +121,7 @@
     }
 
     50% {
-        border-color: #000;
+        border-color: var(--pink);
     }
 }
 
@@ -90,7 +142,7 @@
     }
 
     50% {
-        border-right-color: var(--blue);
+        border-right-color: var(--pink);
         /* Color of the cursor */
     }
 }
@@ -107,3 +159,29 @@
     /* Blink animation */
 }
 
+.footer {
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+.footer .left a {
+    color: var(--pink);
+}
+
+.footer .left a:hover {
+    color: var(--purple);
+}
+
+.footer .left {
+    margin-left: 5rem;
+    font-family: var(--paragraph);
+    font-size: 20px;
+}
+
+.footer .copyright {
+    color: var(--pink);
+    font-family: var(--paragraph);
+    padding-left: 35rem;
+    font-size: 18px;
+
+}

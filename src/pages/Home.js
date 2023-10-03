@@ -31,6 +31,7 @@ export default function Home () {
 
     return (
         <div className="home">
+        <div className="top"></div>
             <div className="content">
 <h1>Sally Mugisha Wanga</h1>
             <h2 className="typewriter">
@@ -52,7 +53,12 @@ export default function Home () {
                     </li>
             </ul>
             </div>
-            
+            <div className="footer">
+              <span className="left">
+                <Link to = "/">Credits</Link></span>
+              <span className="copyright">©2023 - MUGISHA</span>
+            </div>
+              
 
             </div>
     );
