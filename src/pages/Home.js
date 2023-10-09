@@ -40,7 +40,7 @@ export default function Home () {
             <ul>
 
                 <li>
-                   <Link to="/">
+                   <Link to="/about">
                     About Me</Link> 
                 </li>
                 <li>
