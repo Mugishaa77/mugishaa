@@ -13,7 +13,7 @@ export default function About () {
                 <h2>Profile</h2>
                <p> Hi, my name is Sally and I started learning web development in 2022.
                 <br/>
-                This is through a trusted platform known as shecodes that teaches front end web technlogies, namely,
+                This is through shecodes coding workshops that focus on front end web technologies, namely,
                 html, css, javascript and react.
                 <br/>
                 <a href="">
@@ -22,12 +22,12 @@ export default function About () {
                 <br/>
                 Since then I have been actively learning various technologies, reading articles and blogs and socials (e.g twitter and medium) and 
                 building projects to gain skills through experience.
-                <br/><br/><strong>
-                Here is what I can do:</strong></p>
+                </p>
             </div>
             <div className="photo">
 
             </div>
+  
 </div>
 <div className="about-content">
            <h3>Tech Stack: <span className="word-spacing">MongoDB &nbsp; Express.js &nbsp; React.js &nbsp; Node.js</span></h3>            <div className="skills">
@@ -71,6 +71,18 @@ export default function About () {
 <div className="cv">
     <button>
         Download my CV <FontAwesomeIcon icon={faDownload} />
+    </button>
+</div>
+<div className="down">
+    <button className="back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+</svg> back
+    </button>
+    <button className="next">
+next <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>
     </button>
 </div>
         </div>
