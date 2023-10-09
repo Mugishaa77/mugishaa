@@ -8,9 +8,14 @@
                 sans-serif;
                 --abril: 'Abril Fatface',
                     cursive;
+                    --bodoni: 'Libre Bodoni',
+                        serif;
         --pink: #FBDDFB;
         --purple: #6E0061;
         --blue: #192A52;
+        --baby: #6ED0F0;
+        --shecodes: #885DF1;
+        --ppink: #C97C72;
 }
 
 .home {
@@ -184,4 +189,145 @@
     padding-left: 35rem;
     font-size: 18px;
 
+}
+
+/* about page */
+
+.about .header {
+    background-image: url('./backgrounds/mern_icon.png');
+    background-size: contain;
+    background-position: center top;
+    background-color: var(--pink);
+    background-repeat: no-repeat;
+    height: 200px;
+    padding-top: 2rem;
+}
+
+.about .top {
+    display: flex;
+    padding: 1rem;
+}
+
+.about .introduction {
+    flex: 2;
+    font-family: var(--paragraph);
+    font-size: 20px;
+    padding: 1rem;
+    padding-bottom: 0;
+    color: var(--purple);
+
+}
+
+.introduction h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    color: var(--blue);
+}
+
+.introduction p {
+    padding-left: 2rem;
+}
+
+
+.about .introduction a {
+    color: var(--shecodes);
+    font-size: 18px;
+
+}
+
+.about .introduction a:hover {
+    color: green;
+}
+.about .photo {
+    flex: 1;
+    border-left: 1px solid var(--ppink);
+}
+
+.about-content {
+    padding: 2rem;
+
+}
+
+.about h3 {
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blue);
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 2px 4px 8px var(--blue);
+    background-color: var(--pink);
+}
+
+.word-spacing {
+    white-space: nowrap;
+    /* Prevent word wrapping */
+    margin-right: 20px;
+    /* Add spacing between words */
+}
+
+.about h4 {
+    color: var(--blue);
+    font-family: var(--paragraph);
+    text-decoration: underline;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about .skills {
+    display: flex;
+    color: var(--purple);
+   
+   
+}
+.skills .one {
+    flex: 2;
+}
+
+.skills .two {
+    flex: 3;
+    text-align: left;
+    
+}
+
+.about-content ul {
+    list-style: none;
+    font-family: var(--paragraph);
+    font-size: 20px;
+   
+}
+
+.about-content ul li {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--pink);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shecodes);
+
+}
+
+.cv {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.cv button {
+    color: var(--baby);
+    background-color: var(--blue);
+    border: 1px solid var(--baby);
+    font-family: var(--quicksand);
+    padding: 0.7rem;
+    box-shadow: 0 4px 8px var(--baby);
+}
+
+.cv button:hover {
+    color: var(--blue);
+    background-color: var(--baby);
 }
