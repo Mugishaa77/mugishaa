@@ -44,7 +44,7 @@ export default function Home () {
                     About Me</Link> 
                 </li>
                 <li>
-                    <Link to="/">
+                    <Link to="/projects">
                         Projects</Link>
                     </li>
                     <li>

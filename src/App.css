@@ -10,6 +10,8 @@
                     cursive;
                     --bodoni: 'Libre Bodoni',
                         serif;
+                        --roboto: 'Roboto',
+                            sans-serif;
         --pink: #FBDDFB;
         --purple: #6E0061;
         --blue: #192A52;
@@ -321,6 +323,21 @@
 
 }
 
+.github {
+    text-align: center;
+    font-family: var(--paragraph);
+    font-size: 24px;
+    
+}
+
+.github a {
+text-decoration: none;
+color: orange;
+}
+
+.github a:hover {
+    color: var(--purple);
+}
 .cv {
     text-align: center;
     margin: 1rem;
@@ -354,3 +371,141 @@
     font-family: var(--paragraph);
     font-size: 18px;
 }
+
+
+/* projects */
+.project {
+    background-color: #F7F2F8;
+}
+.project .header {
+    color: var(--pink);
+}
+.projects {
+    margin: 1rem;
+    margin-top: 0;
+    border: 1px solid pink;
+}
+
+.titles {
+    padding: 1rem;
+    background-color: var(--pink);
+    border-bottom: 1px solid pink;
+    
+}
+
+.titles h1 {
+    color: var(--blue);
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-bottom: 0;
+    font-size: 32px;
+   padding-left: 5rem;
+    text-decoration: underline;
+    
+}
+
+.titles h2 {
+    color: var(--purple);
+    font-family: var(--quicksand);
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.titles h3 {
+    color: var(--ppink);
+        font-family: var(--paragraph);
+        margin-left: 2rem;
+        margin-bottom: 0;
+}
+
+.titles h4 {
+    color: var(--purple);
+        font-family: var(--quicksand);
+        text-transform: uppercase;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+}
+
+.titles h4 span {
+    text-transform: uppercase;
+    font-family: var(--paragraph);
+    color: var(--purple);
+}
+
+.titles h5 {
+    color: var(--purple);
+        font-family: var(--quicksand);
+        text-transform: uppercase;
+        margin-bottom: 0;
+        padding-bottom: 0;
+}
+
+.titles hr {
+    color: var(--ppink);
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+}
+
+.description h1 {
+color: var(--purple);
+    font-family: var(--paragraph);
+    text-transform: capitalize;
+    padding: 1rem;
+    padding-bottom: 0;;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-left: 2rem;
+    text-decoration: underline;
+    
+}
+
+.description p {
+    font-family: var(--paragraph);
+    font-size: 26px;
+  margin-left: 2rem;
+  color: var(--blue);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.description ul {
+    margin-left: 3rem;
+    font-family: var(--quicksand);
+    font-size: 22px;
+    color: var(--blue);
+    list-style: inside;
+}
+
+.description .users ul {
+    list-style: none;
+}
+
+.description .users ul li h4 {
+    text-transform: uppercase;
+    padding-top: 1rem;
+    color: var(--ppink);
+}
+
+.description .users ul li p {
+    font-size: 22px;
+    padding-right: 2rem;
+    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--blue);
+    font-family: var(--roboto);
+    
+}
+
+.users .note {
+    font-family: var(--paragraph);
+    color: var(--purple);
+}
+
+
+
