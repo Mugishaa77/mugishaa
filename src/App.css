@@ -327,6 +327,7 @@
     text-align: center;
     font-family: var(--paragraph);
     font-size: 24px;
+    padding: 2rem;
     
 }
 
@@ -359,26 +360,52 @@ color: orange;
     background-color: var(--baby);
 }
 
-.down {
-    margin: 1rem;
-    padding: 1rem;
+
+.controls {
+    background-color: var(--pink);
+    border-top: 1px inset var(--pink);
+        box-shadow: 0 -4px 8px var(--ppink);
 }
 
-.down button {
-    border: none;
-    background-color: none;
-    color: var(--blue);
-    font-family: var(--paragraph);
-    font-size: 18px;
+.controls .go-back {
+    margin-left: 2rem;
 }
+
+.controls .center {
+  text-align: center;
+  margin:0 auto;
+  justify-content: center;
+}
+
 
 
 /* projects */
-.project {
+.evergreeen {
     background-color:#F2F7F0;
+
 }
 
-.projects {
+.navs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F7F0;
+  
+}
+
+.navs .back {
+    margin-left: 0;
+}
+
+.navs a {
+    color: #00929C;
+    font-size: 26px;
+}
+
+.navs a:hover {
+    color: #4BB543;
+}
+
+.evergreen {
     margin: 1rem;
     margin-top: 0;
     border: 1px solid var(--blue);
@@ -587,4 +614,10 @@ color: var(--blue);
 
 .link a:hover {
     color: var(--blue);
+}
+
+/* Shecodes */
+
+.shecodes {
+    background-color: var(--ppink);
 }
