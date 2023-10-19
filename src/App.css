@@ -365,16 +365,28 @@ color: orange;
     background-color: var(--pink);
     border-top: 1px inset var(--pink);
         box-shadow: 0 -4px 8px var(--ppink);
+        margin-left: 1rem;
+        margin-right: 1rem;
 }
 
+.controls a {
+    color: var(--purple);
+}
+
+.controls a:hover {
+    color: var(--ppink);
+}
+
+.controls span {
+    font-size: 25px;
+}
 .controls .go-back {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .controls .center {
-  text-align: center;
-  margin:0 auto;
-  justify-content: center;
+  margin-left: 42rem;
+  
 }
 
 
@@ -382,6 +394,7 @@ color: orange;
 /* projects */
 .evergreeen {
     background-color:#F2F7F0;
+    box-shadow: 0 4px 8px #00929C;
 
 }
 
@@ -389,6 +402,8 @@ color: orange;
     display: flex;
     justify-content: space-between;
     background-color: #F2F7F0;
+        box-shadow: 0 4px 8px #00929C;
+        margin: 1px;
   
 }
 
@@ -408,14 +423,15 @@ color: orange;
 .evergreen {
     margin: 1rem;
     margin-top: 0;
-    border: 1px solid var(--blue);
+    border: 1px solid #00929C;
+    border-top: none;
 }
 
 .titles {
     padding: 1rem;
     padding-top: 0;
     background-color: #00929C;
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 1px solid #00929C;
     
 }
 
@@ -578,14 +594,14 @@ color: var(--blue);
 }
 
 .users {
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 1px solid #00929C;
     
 }
 
 .goals {
     padding: 1rem;
     background-color: #F6F7E9;
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 1px solid #00929C;
    
 }
 
@@ -620,4 +636,27 @@ color: var(--blue);
 
 .shecodes {
     background-color: var(--ppink);
+}
+
+/* Contact */
+.contact {
+    margin: 1rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    padding: 0;
+    background-image: url('./backgrounds/contact.jpg');
+    background-size: contain;
+    background-position: center;
+    background-color: #D2C3BC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+}
+
+.contact h1 {
+    margin-top: 1rem;
 }

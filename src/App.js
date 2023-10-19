@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 // projects
 import Evergreen from './projects/Evergreen';
@@ -22,6 +23,7 @@ function App() {
         <Route path="/evergreen" exact element = {<Evergreen />} />
         <Route path="/weather" exact element = {<Weather />} />
         <Route path="/shecodes" exact element = {<Shecodes />} />
+        <Route path="/contact" exact element = {<Contact />} />
 
 
       </Routes>

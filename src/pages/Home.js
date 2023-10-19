@@ -48,7 +48,7 @@ export default function Home () {
                         Projects</Link>
                     </li>
                     <li>
-                        <Link to="/">
+                        <Link to="/contact">
                             Contact Me</Link>
                     </li>
             </ul>
