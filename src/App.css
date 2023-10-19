@@ -375,21 +375,20 @@ color: orange;
 
 /* projects */
 .project {
-    background-color: #F7F2F8;
+    background-color:#F2F7F0;
 }
-.project .header {
-    color: var(--pink);
-}
+
 .projects {
     margin: 1rem;
     margin-top: 0;
-    border: 1px solid pink;
+    border: 1px solid var(--blue);
 }
 
 .titles {
     padding: 1rem;
-    background-color: var(--pink);
-    border-bottom: 1px solid pink;
+    padding-top: 0;
+    background-color: #00929C;
+    border-bottom: 1px solid var(--blue);
     
 }
 
@@ -406,7 +405,7 @@ color: orange;
 }
 
 .titles h2 {
-    color: var(--purple);
+    color: #F6F7E9;
     font-family: var(--quicksand);
     text-transform: uppercase;
     font-size: 30px;
@@ -415,14 +414,14 @@ color: orange;
 }
 
 .titles h3 {
-    color: var(--ppink);
+    color: #AFEEEE;
         font-family: var(--paragraph);
         margin-left: 2rem;
         margin-bottom: 0;
 }
 
 .titles h4 {
-    color: var(--purple);
+    color: #F6F7E9;
         font-family: var(--quicksand);
         text-transform: uppercase;
         margin-bottom: 0;
@@ -433,11 +432,11 @@ color: orange;
 .titles h4 span {
     text-transform: uppercase;
     font-family: var(--paragraph);
-    color: var(--purple);
+    color: #F6F7E9;
 }
 
 .titles h5 {
-    color: var(--purple);
+    color: #F6F7E9;
         font-family: var(--quicksand);
         text-transform: uppercase;
         margin-bottom: 0;
@@ -445,14 +444,18 @@ color: orange;
 }
 
 .titles hr {
-    color: var(--ppink);
+    color: #F6F7E9;
     margin-bottom: 0;
     padding-bottom: 0;
    
 }
 
+.description {
+    background-color: #AFEEEE;
+}
+
 .description h1 {
-color: var(--purple);
+color: var(--blue);
     font-family: var(--paragraph);
     text-transform: capitalize;
     padding: 1rem;
@@ -468,16 +471,15 @@ color: var(--purple);
     font-family: var(--paragraph);
     font-size: 26px;
   margin-left: 2rem;
-  color: var(--blue);
+  color: #4BB543;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .description ul {
-    margin-left: 3rem;
-    font-family: var(--quicksand);
+    font-family: var(--roboto);
     font-size: 22px;
-    color: var(--blue);
+    color:var(--blue);
     list-style: inside;
 }
 
@@ -488,13 +490,14 @@ color: var(--purple);
 .description .users ul li h4 {
     text-transform: uppercase;
     padding-top: 1rem;
-    color: var(--ppink);
+    color: #4BB543;
+    text-decoration: underline;
 }
 
 .description .users ul li p {
     font-size: 22px;
     padding-right: 2rem;
-    margin: 2rem;
+    margin-left: 3rem;
     margin-top: 0;
     margin-bottom: 0;
     color: var(--blue);
@@ -502,10 +505,86 @@ color: var(--purple);
     
 }
 
-.users .note {
-    font-family: var(--paragraph);
-    color: var(--purple);
+.farmer-dashboard,
+ .grocer-dashboard,
+ .buyers {
+    display: flex;
+    background-color: var(--blue);
+    margin: 1rem;
 }
 
+.buyers {
+    margin-left: 0;
+}
 
+.farmer-dashboard img
+  {
+    height: 320px;
+    padding: 1rem;
 
+}
+
+.farmer-dashboard .one,
+.grocer-dashboard .summary,
+.buyers .basket {
+    flex: 1;
+}
+
+.farmer-dashboard .two,
+.grocer-dashboard .create,
+.buyers .basket-one {
+    flex: 1;
+}
+
+.grocer-dashboard img {
+    height: 350px;
+    padding: 1rem;
+}
+
+.buyers img {
+    height: 320px;
+    padding: 1rem;
+}
+
+.basket-one {
+    padding-left: 0;
+}
+
+.users {
+    border-bottom: 1px solid var(--blue);
+    
+}
+
+.goals {
+    padding: 1rem;
+    background-color: #F6F7E9;
+    border-bottom: 1px solid var(--blue);
+   
+}
+
+.goals ul {
+    font-family: var(--quicksand);
+    color: #4BB543;
+}
+
+.goals p {
+    font-size: 24px;
+    color: #1F5229;
+    
+}
+
+.link {
+    background-color: #00929C;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.link a {
+    color: #F6F7E9;
+    font-size: 24px;
+}
+
+.link a:hover {
+    color: var(--blue);
+}

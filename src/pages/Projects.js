@@ -1,4 +1,9 @@
 import farmer from '../screenshots/farmer-one.png';
+import setup from '../screenshots/set-up.png';
+import summary from '../screenshots/grocer-summary.png';
+import create from '../screenshots/create.png';
+import basket from '../screenshots/basket.png';
+import bbasket from '../screenshots/basket-two.png';
 
 export default function Projects () {
     return (
@@ -31,45 +36,65 @@ export default function Projects () {
                     at a <span>wholesale</span> or <span>retail</span> basis to <span>either</span> a <span>grocer </span>
                     or <span>consumer</span>.
                     The farmer is allowed to sell their goods at their preferred price. </p>
+                    <div className="farmer-dashboard">
+                        <img src={farmer} alt="farmer dashboard" className="one"/>
+                        <img src={setup} alt="farmer setup" className="two" />           
+                    </div>
+                    <p>The dashboard also allows the farmer to see a summary of their sales and to edit their store information
+                        as often as they wish.
+                    </p>
+    
                     </li>
                     <li>
                         <h4>Grocers - Secondary buyers and/or sellers</h4>
                         <p>The grocers fit into both the buyers and sellers categories as they can buy produce from the
                              <span>farmers</span> and sell to the <span>consumers</span> at their desired prices.
-                             The grocer can set up a stall with which he can add products for sale.</p>
+                             The grocer can set up a stall with which he can add products for sale.
+                             The UI of the grocer and the farmer are similar, however, they are not the same.</p>
+                             <div className="grocer-dashboard">
+                                <img src={summary} className="summary" alt="grocer summary"/>
+                                    <img src={create} className="create" alt="grocer-create"/>
+                            </div>
+
+                            
                     </li>
 
-                    <p className="note">It is worth noting that the products that are input by the farmers and grocers are the ones on display 
-                        on the market page for purchase by buyers.
-                    </p>
+                    
                     <li>
                         <h4>The Buyer/Consumer</h4>
                         <p>The consumer is able to see all the products available on the app
                             as they are displayed in the market section. One is then able to select an item, view it, add it to basket and checkout, resulting in a complete transaction.
                         </p>
+                        <div className="buyers">
+                            <img className="basket" src={basket} alt="basket" />
+                            <img className="basket-one" src={bbasket} alt="basket-one" />
+                        </div>
+                         <p > It is worth noting that the products that are input by the farmers and grocers are the ones on display 
+                        on the market page for purchase by buyers.
+                    </p>
                     </li>
                 </ul>
-            
+               
+                   
             </div>
             <div className="goals">
                 <h1>Project Goals</h1>
-                <p>Evergreen was created to enable direct communication between producers of food and buyers,
-                    to eliminate the use of middlemen in the trade.
-                    This is because these middlemen are the link between the buyers and the producers, and they dictate food prices.
-                    As a result, the farmers do not always get the rightful gains of their hardwork and the consumer ends up paying more.
-                    With evergreen in place, the farmer is able to sell their proudce at optimum prices, while still reducing the cost to the consumer,
-                    hence both parties are satisfied.
-                    This in turns results in an improvement of food security.
-                    Another benefit is that a wider demographic is reached as it is an online platform that can be accessed remotely.
-                    Orders can be made and deliveries can be organized online. 
-                </p>
+                <p>Evergreen was created to:</p> 
+                <ul>
+                  <li>Enable direct communication between food producers and buyers to eliminate the need for middlemen in the trade.
+                  </li>
+                  <li>Improve food security within the region</li>
+                </ul>
+                <p className="note">Currently, middlemen are the link between the buyers and the producers, and they dictate food prices. As a result, the farmers do not always get the rightful gains of their hardwork and the consumer ends up paying more. With evergreen in place, the farmer is able to sell their produce at optimum prices, while still reducing the cost to the consumer, hence both parties are satisfied. This in turns results in an improvement of food security. Another benefit is that a wider demographic is reached as it is an online platform that can be accessed remotely. Orders can be made and deliveries can be organized online.</p>
             </div>
             <div className="link">
-                <h5>Project Link: 
-                    <a href="https://evergreen-farms-limited-git-master-mugishaa77.vercel.app/">
-                        Click Here
+                <h1>Project Link: </h1>
+                    <a href="https://evergreen-farms-limited-git-master-mugishaa77.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                         https://evergreen-farms-limited-git-master-mugishaa77.vercel.app
                     </a>
-                </h5>
+                
 
             </div>
         
