@@ -26,7 +26,7 @@ export default function Evergreen () {
                     <FontAwesomeIcon icon={faHouse} />
                 </span>
                 </Link>
-                <Link to="/">
+                <Link to="/weather">
                     <span className="next">
                         <FontAwesomeIcon icon={faAnglesRight} />
                     </span>

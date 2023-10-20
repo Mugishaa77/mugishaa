@@ -4,6 +4,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -21,7 +22,7 @@ export default function About () {
                 This is through shecodes coding workshops that focus on front end web technologies, namely,
                 html, css, javascript and react.
                 <br/>
-                <a href="">
+                <a href="https://www.shecodes.io/graduates/44677-sally-wanga" target="_blank" rel="nooperner noreferrer">
                     More about shecodes
                 </a>
                 <br/>
@@ -102,6 +103,12 @@ export default function About () {
                     <FontAwesomeIcon icon={faHouse} />
                 </span>
                 </Link>
+                <Link to="/projects">
+                    <span className="next">
+                        <FontAwesomeIcon icon={faAnglesRight} />
+                    </span>
+                </Link>
+            
                 
             </div>
  

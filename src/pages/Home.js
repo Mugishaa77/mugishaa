@@ -54,8 +54,6 @@ export default function Home () {
             </ul>
             </div>
             <div className="footer">
-              <span className="left">
-                <Link to = "/">Credits</Link></span>
               <span className="copyright">©2023 - MUGISHA</span>
             </div>
               

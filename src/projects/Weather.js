@@ -19,7 +19,7 @@ export default function Weather () {
                     <FontAwesomeIcon icon={faHouse} />
                 </span>
                 </Link>
-                <Link to="/">
+                <Link to="/contact">
                     <span className="next">
                         <FontAwesomeIcon icon={faAnglesRight} />
                     </span>

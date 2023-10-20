@@ -171,24 +171,13 @@
     margin-top: 1rem;
 }
 
-.footer .left a {
-    color: var(--pink);
-}
 
-.footer .left a:hover {
-    color: var(--purple);
-}
-
-.footer .left {
-    margin-left: 5rem;
-    font-family: var(--paragraph);
-    font-size: 20px;
-}
 
 .footer .copyright {
     color: var(--pink);
     font-family: var(--paragraph);
-    padding-left: 35rem;
+    display: block;
+    text-align: center;
     font-size: 18px;
 
 }
@@ -333,11 +322,11 @@
 
 .github a {
 text-decoration: none;
-color: orange;
+color: var(--purple);
 }
 
 .github a:hover {
-    color: var(--purple);
+    color: var(--ppink);
 }
 .cv {
     text-align: center;
@@ -367,6 +356,8 @@ color: orange;
         box-shadow: 0 -4px 8px var(--ppink);
         margin-left: 1rem;
         margin-right: 1rem;
+        display: flex;
+        justify-content: space-between;
 }
 
 .controls a {
@@ -380,16 +371,6 @@ color: orange;
 .controls span {
     font-size: 25px;
 }
-.controls .go-back {
-    margin-left: 1rem;
-}
-
-.controls .center {
-  margin-left: 42rem;
-  
-}
-
-
 
 /* projects */
 .evergreeen {
@@ -760,3 +741,166 @@ text-transform: uppercase;
 .w-link a:hover {
     color: var(--purple);
 }
+
+/* Projects */
+
+.project .navs {
+    background-color: #AFEEEE;
+    box-shadow: 0 4px 8px var(--ppink);
+}
+.project .navs a{
+    color: var(--ppink);
+}
+
+.project .navs a:hover {
+    color: var(--blue);
+}
+
+.projects-body {
+    padding: 1rem;
+    text-align: center;
+    height: 100vh;
+    background-color: var(--pink);
+    margin: 1rem;
+    margin-top: 0;
+    border-bottom: 1px solid #AFEEEE;
+    box-shadow: 0 4px 8px #AFEEEE;
+}
+
+.projects-body h1 {
+    font-family: var(--abril);
+    color: var(--ppink);
+    text-transform: uppercase;
+}
+
+.projects-body a {
+    text-decoration: none;
+    color: var(--ppink);
+   
+}
+
+.projects-body ul {
+    padding: 1rem;
+    list-style: none;
+}
+
+.projects-body ul li {
+    padding: 1rem;
+    font-family: var(--quicksand);
+    text-transform: uppercase;
+    font-size: 25px;
+    background-color: #AFEEEE;
+        font-size: 28px;
+        border: 1px solid var(--ppink);
+        /* Semi-transparent black border */
+        /* Rounded corners */
+        box-shadow: 0 2px 4px var(--ppink);
+        /* Box shadow */
+        transition: background-color 0.3s, transform 0.3s;
+        width: 50%;
+        border-radius: 2px;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+            text-align: center;
+            
+
+    
+}
+
+.projects-body ul li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly more opaque white background */
+        transform: translateY(-2px);
+        /* Slight lift on hover */
+        color: var(--ppink);
+}
+
+/* Contact */
+.contact .navs {
+    background-color: var(--purple);
+    box-shadow: 0 4px 8px var(--pink);
+}
+
+.contact .navs a {
+    color: var(--pink);
+}
+
+.contact .navs a:hover {
+    color: var(--ppink);
+}
+
+.contact {
+    background-color: var(--pink);
+    height: 100vh;
+   }
+
+   .contact-body{
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+    text-align: center;
+    border-bottom: var(--purple);
+    box-shadow: 0 4px 8px var(--purple);
+   }
+
+   .contact-body h2 {
+    color: var(--blue);
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+   }
+
+   .contact-body p {
+    color: var(--purple);
+    font-family: var(--quicksand);
+    font-size: 20px;
+   }
+
+   .contact-body h3 {
+    font-family: var(--roboto);
+    color: var(--ppink);
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+   }
+
+   .contact-body a {
+    text-decoration: none;
+    color: var(--ppink);
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    font-family: var(--roboto);
+    font-size: 26px;
+   
+   }
+
+   .contact-body a:hover {
+    color: goldenrod;
+   }
+
+   .contact-body  .phone  {
+    padding: 1rem;
+    margin: 1rem;
+   }
+
+   .contact-body .email-link {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+   }
+
+   .contact-body .regards {
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--blue);
+    font-family: var(--paragraph);
+   }
+
+   .contact-body .regards span {
+    font-family: var(--abril);
+   }
+
+   .contact-body hr {
+    color: goldenrod;
+    background-color: goldenrod;
+   }
