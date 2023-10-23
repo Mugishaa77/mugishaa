@@ -739,7 +739,150 @@ text-transform: uppercase;
 .w-link a:hover {
     color: var(--purple);
 }
+/* vanilla */
+.vanilla-app {
+    padding-top: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+    border-top: none;
+    border-radius: 2px;
+    background-color: #AFEEEE;
+    border: 1px solid var(--baby);
+}
 
+.v-titles {
+    border-bottom: 1px solid var(--baby);
+    padding: 1rem;
+    
+}
+
+.v-titles h2 {
+    font-family: var(--quicksand);
+    text-transform: uppercase;
+    color: var(--blue);
+
+}
+.v-titles h4
+ {
+text-transform: uppercase;
+    margin-left: 2rem;
+    font-family: var(--paragraph);
+    color: var(--ppink);
+}
+
+.v-titles h5 {
+    font-family: var(--roboto);
+    margin-left: 2rem;
+    color: var(--purple);
+}
+
+.v-titles hr {
+    color: var(--ppink);
+}
+
+.v-description {
+    padding: 1rem;
+   
+}
+
+.v-description h3 {
+    text-transform: uppercase;
+        margin-left: 2rem;
+        font-family: var(--paragraph);
+        color: var(--blue);
+        text-decoration: underline;
+}
+
+.v-description p {
+    margin-left: 3rem;
+    font-family: var(--paragraph);
+    font-size: 22px;
+    color: var(--purple);
+}
+
+.v-screenshot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2px;
+    border: 2px solid var(--purple);
+    box-shadow: 0 4px 6px var(--purple);
+    background-color: var(--purple)
+    
+}
+
+.v-screenshot img {
+    box-shadow: 0 4px 6px var(--baby);
+    
+}
+
+.v-link {
+    text-align: center;
+    border-top: 1px solid var(--baby);
+    background-color: #AFEEEE ;
+    padding: 1rem;
+    box-shadow: 0 4px 8px var(--baby);
+}
+
+.v-link h2 {
+    font-family: var(--paragraph);
+    color: var(--ppink);
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+.v-link a {
+    color: var(--purple);
+    font-size: 24px;
+}
+
+.v-link a:hover {
+    color: var(--ppink);
+}
+
+/* catalog controls */
+.catalog-controls {
+padding: 1rem;
+margin: 1rem;
+text-align: center;
+margin-bottom: 0;
+}
+
+.catalog-controls button {
+    color: var(--pink);
+    background-color: var(--ppink);
+    border-radius: 5px;
+    border: 1px solid var(--pink);
+    width: 100px;
+    height: 40px;
+}
+
+.catalog-controls button:hover {
+    color:var(--ppink);
+    background-color: var(--pink);
+
+    border: 1px solid var(--ppink);
+}
+
+/* Style for the disabled buttons */
+.catalog-controls button[disabled] {
+    color: #999;
+    /* Gray text */
+    background-color: #f2f2f2;
+    border: 1px solid #999;
+    /* Light gray background */
+    /* Change cursor to indicate it's not clickable */
+}
+
+.catalog-controls span {
+    color: var(--ppink);
+    font-family: var(--paragraph);
+    padding: 5px;
+    font-size: 20px;
+}
 /* Projects */
 
 .project .navs {
