@@ -4,13 +4,11 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
-
-
-export default function Projects () {
+export default function Mock () {
     return (
-        <div className="project">
+        <div className="mock-website">
             <div className="navs">
-                <Link to ="/">
+                <Link to ="/projects">
                     <span className="back">
                         <FontAwesomeIcon icon={faAnglesLeft} />
                     </span>
@@ -20,29 +18,12 @@ export default function Projects () {
                     <FontAwesomeIcon icon={faHouse} />
                 </span>
                 </Link>
-                <Link to="/evergreen">
+                <Link to="/contact">
                     <span className="next">
                         <FontAwesomeIcon icon={faAnglesRight} />
                     </span>
                 </Link>
             </div>
-            <div className="projects-body">
-                <h1>My Projects</h1>
-                <ul>
-            <Link to="/evergreen">
-                <li>Evergreen</li>
-            </Link>
-            <Link to="/weather">
-                <li>Weather App</li>
-            </Link>
-            <Link to="/mock">
-                <li>Practice Portfolio</li>
-            </Link>
-            
-           </ul>
-
             </div>
-           
-        </div>
-    );
+    )
 }

@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Evergreen from './projects/Evergreen';
 import Weather from './projects/Weather';
 import Shecodes from './projects/Shecodes';
+import MockPortfolio from './projects/Mock';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/weather" exact element = {<Weather />} />
         <Route path="/shecodes" exact element = {<Shecodes />} />
         <Route path="/contact" exact element = {<Contact />} />
+        <Route path="/mock" exact element = {<MockPortfolio />} />
 
 
       </Routes>
