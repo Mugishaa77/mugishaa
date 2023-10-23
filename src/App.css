@@ -751,7 +751,7 @@ text-transform: uppercase;
 }
 
 .v-titles {
-    border-bottom: 1px solid var(--baby);
+    border-bottom: 1px solid var(--pink);
     padding: 1rem;
     
 }
@@ -759,7 +759,7 @@ text-transform: uppercase;
 .v-titles h2 {
     font-family: var(--quicksand);
     text-transform: uppercase;
-    color: var(--blue);
+    color: var(--purple);
 
 }
 .v-titles h4
@@ -782,6 +782,8 @@ text-transform: uppercase;
 
 .v-description {
     padding: 1rem;
+    background-color: whitesmoke;
+   
    
 }
 
@@ -807,9 +809,9 @@ text-transform: uppercase;
     padding: 2rem;
     margin: 2rem;
     border-radius: 2px;
-    border: 2px solid var(--purple);
-    box-shadow: 0 4px 6px var(--purple);
-    background-color: var(--purple)
+    border: 2px solid var(--pink);
+    box-shadow: 0 4px 6px var(--ppink);
+    background-color: var(--pink)
     
 }
 
@@ -821,14 +823,14 @@ text-transform: uppercase;
 .v-link {
     text-align: center;
     border-top: 1px solid var(--baby);
-    background-color: #AFEEEE ;
+    background-color: var(--pink);
     padding: 1rem;
     box-shadow: 0 4px 8px var(--baby);
 }
 
 .v-link h2 {
     font-family: var(--paragraph);
-    color: var(--ppink);
+    color: var(--blue);
     text-transform: uppercase;
     text-decoration: underline;
     
