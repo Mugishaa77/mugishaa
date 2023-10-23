@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
-import weatherApp from '../screenshots/weather.png';
+import before from '../screenshots/react-before.png';
+import after from '../screenshots/react-after.png';
 
 export default function Weather () {
     return (
@@ -40,8 +41,13 @@ export default function Weather () {
                         My weather app demonstrates the functionality of a <span>single page application.</span>
                     </p>
                     <div className="screenshot">
-                        <img src={weatherApp}
-                        alt="Weather App"/>
+                        <img src={before}
+                        alt="Before Search"
+                        title="Before Search"/>
+
+                        <img src={after}
+                        alt="After Search"
+                        title="After Search" />
 
                     </div>
                     

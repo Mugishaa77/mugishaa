@@ -700,13 +700,11 @@ text-transform: uppercase;
 
 .screenshot {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
     background-color:var(--purple);
     margin: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
     border-radius: 2px;
     border: 2px solid var(--pink);
     box-shadow: 0 -4px 6px var(--purple);
