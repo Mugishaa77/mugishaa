@@ -24,6 +24,30 @@ export default function Mock () {
                     </span>
                 </Link>
             </div>
+            <div className="mock">
+                 < div className="m-titles">
+        <h1>Overview</h1>
+        <h2>Project Name: Shecodes Responsive Portfolio</h2>
+        <h3>Sally's Practice Portfolio Project</h3>
+        <h4>Category: <span>Responsive Web Design</span></h4>
+                <hr/>
+</div>
+ <div className="m-description">
+                    <h3>Description</h3>
+                    <p>This is a simple website showcasing various aspects of front-end web development which include:
+                        <ul>
+                            <li>Html + Css(Css Grid and Flexbox)</li>
+                            <li>Bootstrap</li>
+                            <li>UI/UX Design</li>
+                            <li>Responsive web Design</li>
+                        </ul>
+                    </p>
+
+
+            </div>
+            </div>
+
+            
             </div>
     )
 }

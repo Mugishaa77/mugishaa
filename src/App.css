@@ -23,7 +23,7 @@
 .home {
     background-image: url('./backgrounds/purple.png');
         background-position: center;
-    height: 750px;
+    height: 100vh;
    
 }
 
@@ -1002,7 +1002,7 @@ margin-bottom: 0;
 
    .contact-body h3 {
     font-family: var(--roboto);
-    color: var(--ppink);
+    color: var(--purple);
     padding-bottom: 0;
     margin-bottom: 0;
    
@@ -1019,7 +1019,7 @@ margin-bottom: 0;
    }
 
    .contact-body a:hover {
-    color: goldenrod;
+    color: var(--baby);
    }
 
    .contact-body  .phone  {
@@ -1031,6 +1031,38 @@ margin-bottom: 0;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
    }
+
+   .contact-body hr {
+       margin: 0 auto;
+       width: 300px;
+       height: 2px;
+       background-color: var(--purple);
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+   }
+
+   .socials {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+   }
+
+
+   .socials a{
+    margin: 0 20px;
+        color: var(--ppink);
+        background-color: var(--purple);
+        padding: 10px 14px;
+        border-radius: 50%;
+        transition: all 150ms ease-in-out;
+  
+   }
+
+   .socials a:hover {
+    color: var(--purple);
+    background-color: var(--ppink);
+   }
+
+   
 
    .contact-body .regards {
     padding: 1rem;
@@ -1046,4 +1078,18 @@ margin-bottom: 0;
    .contact-body hr {
     color: goldenrod;
     background-color: goldenrod;
+   }
+
+   /* mock website */
+   .mock-website .navs {
+   box-shadow: 0 4px 8px var(--pink);
+   background-color: var(--purple);
+   }
+
+   .mock-website .navs a {
+   color: var(--pink);
+   }
+
+   .mock-website .navs a:hover {
+   color: var(--ppink);
    }
