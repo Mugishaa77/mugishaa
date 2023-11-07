@@ -13,7 +13,7 @@ export default function Mock () {
     return (
         <div className="mock-website">
             <div className="navs">
-                <Link to ="/projects">
+                <Link to ="/weather">
                     <span className="back">
                         <FontAwesomeIcon icon={faAnglesLeft} />
                     </span>
@@ -51,15 +51,18 @@ export default function Mock () {
                    
             </div>
             <div className="portfolio-screenshot">
-                <img src={portfolio} />
+                <img src={portfolio} alt="portfolio-homepage" />
+            </div>
+            <div className="case">
+                <h5>Mobile Screenshots </h5>
+                        <div className="responsive-screenshots">
+                <img src={one} alt="one" />
+                 <img src={two} alt="two"/>
+                  <img src={three} alt="three" />
+
+            </div>
             </div>
 
-            <div className="responsive-screenshots">
-                <img src={one} />
-                 <img src={two} />
-                  <img src={three} />
-
-            </div>
 
              <div className="link">
                 <h1>Project Link: </h1>

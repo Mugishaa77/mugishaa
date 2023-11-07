@@ -963,6 +963,23 @@ margin-bottom: 0;
         color: var(--ppink);
 }
 
+.project h3 {
+    color: var(--ppink);
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project h4 a {
+    color: var(--blue);
+    font-family: var(--paragraph);
+}
+
+.project h4 a:hover {
+    color: var(--baby);
+}
+
 /* Contact */
 .contact .navs {
     background-color: var(--purple);
@@ -1086,6 +1103,13 @@ margin-bottom: 0;
    }
 
    /* mock website */
+   .mock-website {
+    border: 1px solid var(--purple);
+    margin: 1rem;
+    margin-top: 0;
+    background-color: var(--pink);
+   }
+
    .mock-website .navs {
    box-shadow: 0 4px 8px var(--pink);
    background-color: var(--purple);
@@ -1102,6 +1126,7 @@ margin-bottom: 0;
    .mock .m-titles {
     border-bottom: 1px solid var(--pink);
         padding: 1rem;
+        background-color: var(--pink);
 
    }
 
@@ -1156,17 +1181,12 @@ margin-bottom: 0;
    
 }
 
-.m-description {
-    
-}
-
 .m-description h3 {
     color: var(--blue);
     font-family: var(--paragraph);
     text-transform: capitalize;
     padding: 1rem;
     padding-bottom: 0;
-    ;
     margin-bottom: 0;
     font-size: 30px;
     margin-left: 2rem;
@@ -1193,13 +1213,44 @@ margin-bottom: 0;
 .portfolio-screenshot {
     display: flex;
         justify-content: center;
+       
 
 }
 .portfolio-screenshot  img {
-    padding: 1rem;
+    padding: 2rem;
     margin: 1rem;
-    width: 50%;
+  height: 500px;
+  background-color: var(--purple);
+box-shadow: 0 4px 6px var(--ppink);
    
+}
+
+.case h5 {
+    text-align: center;
+    color: var(--purple);
+    font-family: var(--paragraph);
+    font-size: 28px;
+    text-decoration: underline;
+    padding: 0;
+    margin: 1rem;
+
+}
+
+.responsive-screenshots {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--baby);
+   
+        /* Deep purple background */
+        margin-bottom: 1rem;
+      
+}
+
+.responsive-screenshots img {
+    height: 500px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px var(--ppink);
+    background-color: var(--purple);
 }
 
 .mock-website .link {
