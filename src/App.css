@@ -1280,3 +1280,127 @@ box-shadow: 0 4px 6px var(--ppink);
 .mock-website .link a:hover {
     color: var(--purple);
 }
+/* media queries */
+@media (max-width: 900px) {
+    .home .content {
+        margin: 1rem;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content h2 {
+        font-size: 25px;
+    }
+
+    .content ul li {
+        font-size: 22px;
+    }
+
+    .content ul li:hover {
+        background-color: white;
+        transform: translateX(-1px);
+        /* Slight lift on hover */
+        color: var(--pink);
+
+    }
+
+    .content ul li a {
+        font-size: 30px;
+    }
+
+    .content ul li a:hover {
+        transform: translateX(-1px);
+    }
+
+    .typewriter {
+        letter-spacing: 1px;
+    }
+
+    .about .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .header {
+        height: 100px;
+        padding-top: 1rem;
+    }
+
+    .about .introduction {
+        font-size: 16px;
+        padding: 1rem;
+    }
+
+    .word-spacing {
+        margin-right: 10px;
+    }
+
+    .about h4 {
+        font-size: 22px;
+    }
+
+
+    .about .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content ul {
+        font-size: 17px;
+    }
+
+    .github {
+        font-size: 18px;
+    }
+
+    .controls span {
+        font-size: 18px;
+    }
+
+    .navs a {
+        font-size: 20px;
+    }
+
+    .titles h1 {
+        font-size: 28px;
+    }
+
+    .evergreen {
+        margin: 0;
+    }
+
+    .titles h1, 
+    .description h1 {
+        font-size: 25px;
+        padding: 1rem;
+    }
+
+    .titles h2 {
+        font-size: 24px;
+    }
+
+    .titles h3 {
+        font-size: 23px;
+    }
+
+    .titles h4,
+        .description .users ul li h4 {
+        font-size: 22px;
+    }
+
+    .titles h5 {
+        font-size: 21px;
+    }
+
+    .description p,
+        .description .users ul li p {
+        font-size: 20px;
+    }
+
+    .description ul {
+        font-size: 19px;
+    }
+
+}
