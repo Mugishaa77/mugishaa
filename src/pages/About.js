@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
-import Sally from '../cv/Sally Wanga - 2023 CV.pdf';
+import Sally from '../cv/Sally Wanga.pdf';
 
 
 
