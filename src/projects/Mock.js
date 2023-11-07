@@ -3,8 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
+import portfolio from '../screenshots/Portfolio.png';
+import one from '../screenshots/portfolio-one.png';
+import two from '../screenshots/portfolio-two.png';
+import three from '../screenshots/portfolio-three.png';
 
 export default function Mock () {
+
     return (
         <div className="mock-website">
             <div className="navs">
@@ -43,11 +48,35 @@ export default function Mock () {
                         </ul>
                     </p>
 
+                   
+            </div>
+            <div className="portfolio-screenshot">
+                <img src={portfolio} />
+            </div>
+
+            <div className="responsive-screenshots">
+                <img src={one} />
+                 <img src={two} />
+                  <img src={three} />
 
             </div>
+
+             <div className="link">
+                <h1>Project Link: </h1>
+                    <a href="https://mugisha-s-website-git-master-mugishaa77.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+</svg> https://mugisha-s-website-git-master-mugishaa77.vercel.app/
+                    </a>
+                
+
             </div>
 
             
+            </div>
             </div>
     )
 }
