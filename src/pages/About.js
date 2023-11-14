@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
-import Sally from '../cv/Sally Wanga.pdf';
+import Sally from '../cv/Sally Wanga - 2023 CV.pdf';
 
 
 
@@ -33,7 +33,7 @@ export default function About () {
                 <a href="https://swugisha.medium.com/" target="_blank" rel="noopener noreferrer" className="my-link" >
                     See Swugisha's Medium</a>
                     <br/>
-                    I am currently learning Cybersecurity.
+                    <span>I am currently learning Docker and Kubernetes.</span>
 
                 </p>
             </div>

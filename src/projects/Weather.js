@@ -31,6 +31,7 @@ export default function Weather () {
   };
 
     return (
+      
         <div className="weather">
             <div className="navs">
                 <Link to ="/evergreen">
@@ -43,7 +44,7 @@ export default function Weather () {
                     <FontAwesomeIcon icon={faHouse} />
                 </span>
                 </Link>
-                <Link to="/mock">
+                <Link to="/contact">
                     <span className="next">
                         <FontAwesomeIcon icon={faAnglesRight} />
                     </span>

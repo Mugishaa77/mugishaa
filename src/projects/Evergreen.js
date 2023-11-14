@@ -16,7 +16,7 @@ export default function Evergreen () {
     return (
         <div className="evergreeen">
             <div className="navs">
-                <Link to ="/projects">
+                <Link to ="/atlas">
                     <span className="back">
                         <FontAwesomeIcon icon={faAnglesLeft} />
                     </span>

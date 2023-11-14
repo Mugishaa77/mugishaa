@@ -184,7 +184,7 @@
 
 /* about page */
 .about {
-    background-color: #F7F2F8;
+    background-color: #B79EB8;
 }
 
 .about .header {
@@ -213,7 +213,7 @@
     padding: 2rem;
     color: var(--purple);
     box-shadow: 0 4px 8px var(--ppink);
-    background-color: var(--white);
+    background-color: var(--pink);
 
 }
 
@@ -242,6 +242,12 @@
 
  .my-link {
     text-align: center;
+}
+
+.introduction span {
+    color: var(--ppink);
+    text-align: center;
+
 }
 .about .photo {
     flex: 2;
@@ -441,6 +447,7 @@ color: var(--purple);
     margin-left: 1rem;
     margin-bottom: 0;
 }
+
 
 .titles h3 {
     color: #AFEEEE;
@@ -1210,7 +1217,7 @@ margin-bottom: 0;
     list-style: inside;
 }
 
-.portfolio-screenshot {
+.portfolio-screenshot, .ui {
     display: flex;
         justify-content: center;
        
@@ -1279,6 +1286,103 @@ box-shadow: 0 4px 6px var(--ppink);
 
 .mock-website .link a:hover {
     color: var(--purple);
+}
+/* Atlas */
+.atlas {
+    border: 1px solid gray;
+}
+
+.atlas-description {
+    margin: 1rem;
+    margin-top: 0;
+    background-color: #F5F5F5;
+}
+
+.atlas-description .titles {
+    background-color: #009F55;
+    border-bottom: #009F55;
+  
+}
+
+.atlas-description .titles h1 {
+color: #F5F5F5;
+   
+}
+
+.atlas-description .description {
+    background-color: #F5F5F5;
+    border: 1px solid #009F55;
+}
+
+.atlas-description .description h1 {
+    color: #009F55;
+}
+
+.atlas-description .description p {
+    color: #342F7F;
+
+}
+
+.atlas-description .description li {
+    color: #009F55;
+   
+}
+
+.atlas-description .scope {
+    border: 1px solid #009F55;
+    border-top: none;
+}
+.atlas .scope h2 {
+    color: var(--blue);
+        font-family: var(--paragraph);
+        text-transform: uppercase;
+        padding: 1rem;
+        margin-bottom: 0;
+        font-size: 28px;
+        padding-left: 5rem;
+        text-decoration: underline;
+}
+
+.atlas-description .ui {
+    border: 1px solid #009F55;
+    border-top: 0;
+}
+
+.atlas-description .ui {
+ display: flex;
+ flex-direction: column;
+}
+.atlas-description .ui h2{
+    font-family: var(--paragraph);
+    color: #342F7F;
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+.ui img {
+   object-fit: contain;
+    padding: 2rem;
+    margin: 1rem;
+    height: 500px;
+    background-color: white;
+}
+
+.atlas-description .scope p {
+    color: #009F55;
+    font-family: var(--paragraph);
+    font-size: 22px;
+    margin-left: 5rem;
+}
+
+.atlas-description .link {
+    background-color: #009F55;
+}
+
+.atlas-description .link h2 {
+    color: #342F7F;
+    font-family: var(--paragraph);
+    text-decoration: underline;
 }
 /* media queries */
 @media (max-width: 900px) {
